@@ -1,0 +1,38 @@
+public class SimpleMathCalculation {
+    private double a;
+    private double b;
+
+    public static double addNums(double a, double b){
+        return a+b;
+    }
+
+    public double addNum(double a, double b){
+        return a+b;
+    }
+
+    public static double subNums(double a, double b){
+        return a-b;
+    }
+
+    public double subNum(double a, double b){
+        return a-b;
+    }
+
+    public static double multNums(double a, double b){
+        return a*b;
+    }
+
+    public double multNum(double a, double b){
+        return a*b;
+    }
+
+    public static double divNums(double a, double b){
+        return a/b;
+    }
+
+    public double divNum(double a, double b){
+        return a/b;
+    }
+
+
+}
