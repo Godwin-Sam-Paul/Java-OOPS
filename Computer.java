@@ -17,11 +17,11 @@ public class Computer extends Product{
 
 
 
-    public void getComputerCase(ComputerCase computerCase){
+    public void setComputerCase(ComputerCase computerCase){
         this.computerCase = computerCase;
     }
 
-    public ComputerCase setComputerCase(){
+    public ComputerCase getComputerCase(){
         return computerCase;
     }
 
@@ -33,11 +33,11 @@ public class Computer extends Product{
         return monitor;
     }
 
-    public void getProcessor(Processor processor){
+    public void setProcessor(Processor processor){
         this.processor = processor;
     }
 
-    public Processor setProcessor(){
+    public Processor getProcessor(){
         return processor;
     }
 
