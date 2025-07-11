@@ -15,6 +15,11 @@ public class Main {
           comp.setManufactureName("Asus");
           System.out.println(comp.getManufactureName());
 
+
+          SimpleMathCalculation customMath = new SimpleMathCalculation();
+
+          System.out.println(customMath.addNum(5,10));
+          System.out.println(SimpleMathCalculation.addNums(10,20));
           }
 
 }
